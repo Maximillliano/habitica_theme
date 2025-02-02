@@ -1,7 +1,5 @@
-# habitica_theme
+# 🎮 Habitica 2.0 (Alpha) v0.2 🎮  
 Habitica theme plugin for browsers
-
-🎮 Habitica 2.0 (Alpha) v0.2 🎮  
 
 **Update:**  
 1. Adjusted **New version**  
