@@ -1,0 +1,418 @@
+/*New Habitica*/
+
+#loading-screen, #loading-screen-inapp {
+  background-color: #8B2FFE !important;
+}
+
+.modal-backdrop {
+  background-color: #ffffff !important;
+}
+
+.notification {
+  border-radius: 20px !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+#task-modal .modal-content {
+  -webkit-box-shadow: 0 14px 28px 0 rgba(26, 24, 29, .24), 0 10px 10px 0 rgba(26, 24, 29, .1);
+  box-shadow: 0px 0px 20px 0 rgba(26, 24, 29, .24), 0 10px 10px 0 rgba(26, 24, 29, .1);
+}
+
+body {
+  background:#fff !important ;
+}
+
+.logo {
+  color: #8B2FFE !important;
+}
+
+.left-control+.task-content {
+  background-color: #f8f8f8;
+}
+
+.navbar-dark .navbar-nav .nav-link, .character-name {
+  color: #49484D !important;
+}
+
+.habitica-menu-dropdown.open .habitica-menu-dropdown-toggle .svg-icon {
+  color: #8B2FFE !important;
+}
+
+.member-details.expanded {
+  background: #fff !important;
+  -webkit-box-shadow: 0 0 0 8px #ffffff !important;
+  box-shadow: 0 0 0 8px #ffffff !important;
+}
+
+.member-details.condensed.expanded .member-stats {
+  background: #fff !important;
+  -webkit-box-shadow: 0 2px 16px 0 rgba(26, 24, 29, .3) !important;
+  box-shadow: 0 2px 16px 0 rgba(26, 24, 29, .3) !important;
+}
+
+.progress-container.condensed>.progress {
+  background: #EDECEE !important;
+}
+
+.member-details .avatar-container {
+  margin-bottom: 0 !important;
+}
+
+.tasks-column h2 {
+  font-size: 28px !important;
+}
+
+.quick-add {
+  display: none !important;
+}
+.tasks-list {
+  background: inherit !important;
+  padding: 0 !important;
+}
+
+.task {
+  margin-bottom: 5px !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.task-disabled-habit-control-bg {
+display: none !important;
+}
+
+.badge {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.is-buffed {
+  background: none !important;
+}
+
+.daily-todo-control {
+  border-radius: 50% !important;
+}
+
+.create-task-area {
+  position: fixed !important;
+  right: 20px !important;
+  bottom: 20px !important;
+  top: inherit !important;
+}
+
+.create-btn{
+  background-color: #8B2FFE !important;
+  height: 50px !important;
+  padding: 4px 80px !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.create-btn .svg-icon {
+  color: white !important;
+}
+
+.create-task-area .dropdown {
+  bottom: 60px !important;
+  width: 248px !important;
+}
+
+.tasks-navigation{
+  position: fixed !important;
+  bottom: 0 !important;
+  right: 300px !important;
+  margin-bottom: 15px !important;
+  z-index: 1000 !important;
+  background: #EDECEE !important;
+  padding: 5px !important;
+  border-radius: 5px !important;
+}
+
+.collapse-checklist {
+  border-radius: 20px !important;
+}
+
+.offset-md-4 {
+  margin-left: 0 !important;
+}
+
+.tasks-navigation .col-md-4 {
+  width: 100% !important;
+  max-width: inherit !important;
+  padding: 0 !important;
+}
+
+.form-control.input-search {
+  width: 400px !important;
+  height: 3rem !important;
+}
+
+.filter-panel{
+  top: inherit !important;
+  left: 2px !important;
+  bottom: 52px !important;
+  width: 514px !important;
+  padding: 0 !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+.filter-panel .tags-header {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter.active {
+  border-bottom: 2px solid #8B2FFE !important;
+}
+
+.custom-checkbox .custom-control-label:before {
+  border-radius: 20px;
+  border-width: 1px;
+}
+
+.task-content.reward-content {
+  background-color: #f8f8f8;
+}
+
+.reward-items .item {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background-color: #f8f8f8;
+}
+
+.task-content h2 {
+  font-size: 20px !important;
+}
+
+footer {
+  background-color: #f8f8f8 !important;
+}
+
+/* Header and team */
+#app-header {
+  background-color: #fff !important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active {
+  color: #8B2FFE !important;
+}
+
+.topbar .topbar-item.active:not(:hover) {
+  -webkit-box-shadow: inset 0 -4px 0 #8B2FFE !important;
+  box-shadow: inset 0 -4px 0 #8B2FFE !important;
+}
+
+.topbar .topbar-item:hover {
+  background: #fff !important;
+}
+
+.topbar-dropdown {
+  background: #fff !important;
+  -webkit-box-shadow: 0 2px 16px 0 rgba(26, 24, 29, .3) !important;
+  box-shadow: 0 2px 16px 0 rgba(26, 24, 29, .3) !important;
+  border-radius: 5px !important;
+}
+
+.topbar-item .topbar-dropdown .topbar-dropdown-item {
+  color: #49484D !important;
+}
+
+.progress-container>.progress {
+  --progress-background: #EDECEE !important;
+  border-radius: 20px !important;
+}
+
+.progress-container>.progress>.progress-bar {
+  border-radius: 20px !important;
+}
+
+.user-tasks-page {
+  padding-top: 30px !important;
+}
+.view-party {
+  display: none !important;
+  background-image: none !important;
+}
+
+.party-members {
+  gap: 6px;
+}
+
+.topbar {
+  background-color: #fff !important;
+  background-image: none !important;
+}
+
+.item-with-icon .top-menu-icon.svg-icon {
+  color: #49484D !important;
+}
+
+.item-with-icon, .small-text {
+  color: #49484D !important;
+}
+
+.gold {
+  color: #daae0f !important;
+}
+
+.gem {
+  color: #93C5B4 !important;
+}
+
+/* Class Spells*/
+
+.drawer-title {
+  background-color: #fff !important;
+  color: #49484D !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-top-right-radius: 8px !important;
+  border-top-left-radius: 8px !important;
+}
+
+.drawer-content {
+  background-color: #fff !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.drawer-container {
+  -webkit-box-shadow: 0 0px 15px 0px rgba(26, 24, 29, .3) !important;
+  box-shadow: 0 0px 15px 0px rgba(26, 24, 29, .3) !important;
+  border-top-right-radius: 8px !important;
+  border-top-left-radius: 8px !important;
+}
+
+.spell {
+  width: 5.5rem !important;
+  height: 3.6rem !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background: #f8f8f8 !important;
+}
+
+.spell-container {
+  margin-left: -1.5rem !important;
+}
+
+.details {
+  height: 2.1rem !important;
+}
+
+.drawer-toggle-icon {
+  bottom: 8px !important;
+
+}
+
+.drawer-toggle-icon.svg-icon svg path{
+  stroke: #49484D !important;
+}
+
+.mana-text {
+  color: #49484D !important;
+  line-height: normal !important;
+}
+
+.spell-border:hover {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;  
+}
+
+/* Inventory */
+.form-group .input-search {
+  width: 100% !important;
+}
+
+.secondary-menu {
+  background: #fff !important;
+}
+
+.standard-sidebar {
+  background: #f8f8f8 !important;
+}
+
+.btn-show-more {
+  background: #f8f8f8 !important;
+}
+
+.item {
+  background: #f8f8f8 !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.nav-link.active {
+  color: #8B2FFE !important;
+  -webkit-box-shadow: inset 0 -.1rem 0 #8B2FFE !important;
+    box-shadow: inset 0 -.1rem 0 #8B2FFE !important;
+}
+
+.nav-link:hover {
+  background: none !important;
+}
+
+.page-header {
+  color: #34313a !important;
+  height: 3rem !important;
+  font-size: 28px !important;
+}
+
+.equipment-type-button{
+  margin-right: 1.4rem !important;
+}
+
+.equipment-type-button.active, .equipment-type-button:hover {
+  -webkit-box-shadow: inset 0 -.25rem 0 #8B2FFE !important;
+    box-shadow: inset 0 -.25rem 0 #8B2FFE !important;
+}
+
+.drawer-slider .message .content {
+  background: #f8f8f8 !important;
+  color: #49484D !important;
+}
+
+.equipment.items .item-empty {
+  background: #EDECEE  !important;
+}
+
+/* Shops */
+.drawer-tab-text a, a:not([href]):not([tabindex]) {
+  color: #49484D !important;
+}
+
+.drawer-tab-container {
+  margin-bottom: 5px !important;
+}
+
+.inventoryDrawer .drawer-help-text, .item-label, .toggle-switch-description {
+  color: #49484D;
+}
+
+.filter-panel .tags-header a {
+  color: #8B2FFE !important;
+  font-size: 14px !important;
+  margin-top: 5px !important;
+}
+
+/* Party */
+.sidebar {
+  background: #f8f8f8 !important;
+}
+
+.btn-primary {
+  background: #8B2FFE !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;;
+}
+
+.boss-health-bar, .grey-progress-bar {
+  border-radius: 20px !important;
+
+}
+
+.grey-progress-bar {
+  background-color: #EDECEE !important;
+}

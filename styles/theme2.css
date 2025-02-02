@@ -1,0 +1,10 @@
+/*No gamification*/
+
+#app-header, .tasks-column.reward, .currency-tray, .drawer-container {
+    display: none !important;
+}
+
+.col-lg-3 {
+    flex: 0 0 33.33333333% !important;
+    max-width: 33.33333333% !important;
+}

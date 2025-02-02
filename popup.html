@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habitica Theme Changer</title>
+  <style>
+    *{
+      font-family: Roboto, sans-serif;
+      font-size: 14px;
+    }
+    body {
+      padding: 15px;
+      margin: 0;
+      width: 240px;
+      border-radius: 5px;
+      background: #FFF;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+    }
+    h1 {
+        margin: 0;
+        font-size: 16px;
+    }
+    a {
+        font-size: 12px;
+        text-decoration: underline; 
+        color: #572AB6;
+    }
+    hr {
+      width: 100%;
+      opacity: 20%;
+    }
+    .theme{
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      margin: 30px 0;
+    }
+    .footer{
+      display: flex;
+      justify-content: space-between;
+    }
+    .reset{
+      font-size: 12px;
+      text-decoration: underline; 
+      color: #B6B6B6;
+      width: auto;
+    }
+    button {
+      width: 100%;
+      padding: 0;
+      position: relative;
+      background: none;
+      border: none;
+      text-align: left;
+      cursor: pointer;
+    }
+    button:hover {
+      color: #572AB6;
+    }
+    button.active {
+      font-weight: 600;
+      color: #572AB6;
+    }
+    button.active::after {
+      content: "✔";
+      position: absolute;
+      right: 10px;
+      color: #572AB6;
+      font-weight: 500;
+      font-weight: bold;
+    }
+    .reset.active {
+      font-weight: 400;
+      color: #B6B6B6;
+    }
+    .reset.active::after {
+      display: none;
+    }
+    .toggle-container {
+      display: flex;
+      margin: 10px 0;
+      align-items: center;
+    }
+    .slider-text {
+        font-size: 12px;
+        margin-left: 10px;
+        color: #B6B6B6;
+    }
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 34px;
+      height: 18px;
+    }
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: 0.4s;
+      border-radius: 25px;
+    }
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 14px;
+      width: 14px;
+      left: 3px;
+      bottom: 2px;
+      background-color: white;
+      transition: 0.4s;
+      border-radius: 50%;
+    }
+    input:checked + .slider {
+      background-color: #572AB6;
+    }
+    input:checked + .slider:before {
+      transform: translateX(15px);
+    }
+  </style>
+</head>
+<body>
+  <h1>Habitica 2.0</h1>
+  <div class="toggle-container">
+    <label class="switch">
+      <input type="checkbox" id="theme-toggle">
+      <span class="slider round"></span>
+    </label>
+    <span class="slider-text">Light/Dark (in Dev)</span>
+  </div>
+
+  <div class="theme">
+    <button data-theme="default">Default</button>
+    <hr>
+    <button data-theme="theme1">⭐ New Habitica</button>
+    <hr>
+    <button data-theme="theme2">💼 No gamification</button>
+    <hr>
+    <button data-theme="theme3">📄 Minimal (in Dev)</button>
+  </div>
+  
+  <div class="footer">
+    <button class="reset" data-theme="default">Reset to default</button>
+    <a href="https://t.me/maximilian_courses" target="_blank">Made by Maximilian</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

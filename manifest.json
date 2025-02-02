@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Habitica 2.0",
+    "description": "Позволяет выбрать и установить одну из четырех тем для Habitica.",
+    "version": "1",
+    "author": "Maximilian",
+    "permissions": ["storage"],
+    "host_permissions": ["https://habitica.com/*"],
+    "web_accessible_resources": [
+      {
+        "resources": ["styles/*.css"],
+        "matches": ["https://habitica.com/*"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon_16.png",
+        "48": "icon_48.png",
+        "128": "icon_128.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://habitica.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }

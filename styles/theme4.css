@@ -1,0 +1,89 @@
+/* Темная тема*/
+/*
+фон #242424
+инпут #2B2B2B
+панель #1B1B1B
+
+фон 1A171E
+панель 211E29
+декор 6A6174
+икнока A8A5B0
+*/
+
+#loading-screen, #loading-screen-inapp {
+    background-color: #1A171E !important;
+}
+
+body {
+    background: #1A171E !important;
+}
+
+footer {
+    background: #1A171E !important;
+}
+
+.modal-content {
+    background: #211E29 !important;
+}
+
+.filter-panel {
+    background: #211E29 !important;
+}
+
+#menu_collapse {
+    background: #1A171E !important;  
+}
+
+ #app-header, .topbar {
+    background: #1A171E !important;
+}
+
+.view-party {
+    background-image: none !important;
+}
+
+.tasks-list {
+    background: #1A171E !important;  
+}
+
+.task {
+    background: #211E29 !important;
+}
+
+.task-notes p, li {
+    color: #9b98a3 !important;
+}
+
+.task-disabled-habit-control-bg {
+    background: #2a2635 !important;
+}
+
+.quick-add {
+    background: #2a2635 !important;
+}
+
+.left-control+.task-content, .reward-content {
+    background: #211E29 !important;  
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p, .filter {
+    color: #fff !important;
+}
+
+input.form-control.input-search, input.input-search, textarea.form-control.input-search, textarea.input-search {
+    background-color: #2a2635 !important;
+    border: none !important;
+}
+
+.btn-secondary {
+    background-color: #211E29 !important;
+}
+
+/* Inventory */
+.secondary-menu, .standard-sidebar, .item, .sidebar, .chat-row textarea, .card, .challenge {
+    background: #211E29 !important;  
+}
+
+.nav-link {
+    color: #fff !important;
+}
